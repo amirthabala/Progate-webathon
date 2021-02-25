@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.head{
+    width: auto;
+    height: 90px;
+    width: 100%;
+    background-color: rgb(245, 139, 139);
+    position: fixed;
+    z-index: 1;
+}
+.head img{
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.head li{
+    list-style: none;
+    float: right;
+    padding: 35px 10px;
+    font-size: 18px;
+}
+.head ul{
+    margin-right: 8%;
+}
+.head h1{
+    float: left;
+    padding: 25px 30px 25px 0;
+    font-size: 35px;
+}
+.head li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.head li a:hover{
+    background-color: rgb(128, 128, 128,0.6);
+    color: honeydew;
+}
+.message{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    left: 50%;
+    top: 50%;
+    margin: -150px 0 0 -200px;
+    z-index: 0;
+}
+.message h5{
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.message h1{
+    font-size: 50px;
+}
+.contents{
+    position: relative;
+    width: 600px;
+    height: 100px;
+    left: 50%;
+    top: 50%;
+    padding: 20px 10px;
+    margin: -50px 0 0 -300px;
+    text-align: center;
+}
+.pic{
+    width: 50%;
+    float: left;
+    height: 630px;
+    padding: 100px 120px;
+}
+.aboutme{
+    width: 50%;
+    float: left;
+    height: 630px;
+    padding: 80px;
+}
+.aboutme h1{
+    font-size: 35px;
+}
+.texts{
+    margin-top: 40px;
+}
+.aboutme h3{
+    margin-bottom: 10px;
+}
+table th,td{
+    padding: 5px;
+    text-align: left;
+}
+.texts a{
+    color: black;
+}
+
+.fa {
+    padding: 12px 10px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+    background: #ce14ce;
+    color: white;
+}
+.skill img{
+    margin-left: 65px;
+}
+.project-title h3{
+    padding: 5px 50px;
+}
+.project-title{
+    padding-bottom: 30px;
+}
